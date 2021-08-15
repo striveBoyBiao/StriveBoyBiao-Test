@@ -24,3 +24,9 @@ hs_err_pid*
 /.idea/
 /logs/
 /striveboybiao-test/target/
+/.idea/inspectionProfiles/
+/.idea/libraries/
+.idea
+/.idea
+/striveboybiao-test/striveboybiao-test.iml
+/striveboybiao-test/target
