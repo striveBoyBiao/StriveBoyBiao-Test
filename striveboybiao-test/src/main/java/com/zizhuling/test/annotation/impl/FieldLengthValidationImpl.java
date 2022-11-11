@@ -54,7 +54,7 @@ public class FieldLengthValidationImpl implements ConstraintValidator<FieldLengt
     @Override
     public boolean isValid(String value, ConstraintValidatorContext constraintValidatorContext) {
         constraintValidatorContext.disableDefaultConstraintViolation();//禁用默认的message的值
-        //重新添加错误提示语句  
+        //重新添加错误提示语句
         JSONObject jsonObject=new JSONObject();
         jsonObject.put(Message.MESSAGE, message+"长度不在范围内，应该在"+min+"到"+max+"之间。");
         jsonObject.put(Message.CODE, code);
