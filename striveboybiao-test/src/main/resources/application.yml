@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port: 8080
   servlet:
     session:
       timeout: 1800
@@ -60,7 +60,7 @@ mybatis:
     local-cache-scope: statement
     use-generated-keys: true
     log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
-  mapper-locations: classpath*:mapper/*.xml
+  mapper-locations: classpath*:dao/*.xml
 pagehelper:
   reasonable: true
   supportMethodsArguments: true

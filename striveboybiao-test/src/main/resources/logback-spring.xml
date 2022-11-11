@@ -38,6 +38,6 @@
         <appender-ref ref="FILE"/>
     </root>
 
-   <logger name="com.zizhuling.test.mapper" level="INFO"/>
+   <logger name="com.zizhuling.test.dao" level="INFO"/>
 
 </configuration>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.zizhuling.test.mapper.ContentMapper">
+<mapper namespace="com.zizhuling.test.dao.ContentMapper">
     <!--分页查询忙里偷闲界面数据-->
     <select id="findDoing" parameterType="Map" resultType="org.apache.commons.collections.map.CaseInsensitiveMap">
         select bc.cid,

@@ -22,4 +22,9 @@ public class Constants {
     public static final String DOING="doing";
     public static final String MODULE_PATH_ONE="/life";
     public static final String MODULE_PATH_TWO="/learn";
+    /**
+     * 用户id
+     */
+    public static final String USER_ID="1";
+    public static final int ONE_INT = 1;
 }

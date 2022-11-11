@@ -1,4 +1,4 @@
-package com.zizhuling.test.mapper;
+package com.zizhuling.test.dao;
 
 import org.apache.ibatis.annotations.Mapper;
 

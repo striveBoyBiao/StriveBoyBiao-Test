@@ -1,6 +1,6 @@
 package com.zizhuling.test.service.impl;
 
-import com.zizhuling.test.mapper.ContentMapper;
+import com.zizhuling.test.dao.ContentMapper;
 import com.zizhuling.test.service.MainService;
 import com.zizhuling.test.utils.Constants;
 import com.zizhuling.test.utils.PageInfo;
